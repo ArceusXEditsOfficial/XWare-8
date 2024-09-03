@@ -1,0 +1,609 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "XWARE (Secure)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Information",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Information"
+})
+local Section = Tab:AddSection({
+	Name = "Update Logs- Ghxst Name Changed To XWare, Shifted To Orion Library,"
+})
+local Section = Tab:AddSection({
+	Name = "Only 2 Linkvertise, Mobile Support, New Scripts And MANY MORE!!"
+})
+local Section = Tab:AddSection({
+	Name = "Credits For The Hub: Arceus X Edits"
+})
+local Tab = Window:MakeTab({
+	Name = "Admin Scripts",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Admin Scripts (Universal)"
+})
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ttwizz/infiniteyield/master/source.lua", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Nameless Admin",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))();
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "R15 Scripts",
+	Icon = "rbxassetid://668525816",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "R15 Scripts"
+})
+Tab:AddButton({
+	Name = "Back/Front Flip",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/YdnhLtkv", true))()
+  	end
+})
+Tab:AddButton({
+	Name = "Emotes GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
+  	end
+})
+local Tab = Window:MakeTab({
+	Name = "Ragdoll Engine",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Ragdoll Engine"
+})
+Tab:AddButton({
+	Name = "System Broken Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+  	end
+})
+      local Tab = Window:MakeTab({
+	Name = "Blade Ball",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Visual Beta V3.5",
+	Callback = function()
+      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5945467f3b9388503ca653c0ea49cba.lua"))()
+  	end
+})
+Tab:AddButton({
+	Name = "FFJ",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparry.lua"))()
+  	end
+})
+     local Tab = Window:MakeTab({
+	Name = "Bedwars",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Vape V4",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end
+})
+Tab:AddButton({
+	Name = "Raven B4",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/DzAdmNq1"))()
+  	end
+})
+     local Tab = Window:MakeTab({
+	Name = "Da Hood",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "RayX",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+  	end
+})
+Tab:AddButton({
+	Name = "Mash Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/C6R2XTGi"))()
+  	end
+})
+Tab:AddButton({
+	Name = "TBO Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/cool5013/TBO/main/loader'))()
+  	end
+})
+     local Tab = Window:MakeTab({
+	Name = "Blox Fruits",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Min Gaming Hub (Keyless+Recommended)",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")() 
+  	end
+})
+Tab:AddButton({
+	Name = "Speed Hub X (Keyless)",
+	Callback = function()
+      		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+  	end
+})
+Tab:AddButton({
+	Name = "Matsune Hub V1",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Matsune/main/MatsuneV3.lua"))()
+  	end
+})
+Tab:AddButton({
+	Name = "Redz Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+  	end
+})
+  local Tab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Nexware V0.2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
+  	end
+})
+  Tab:AddButton({
+	Name = "Owl Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+  	end
+})
+Tab:AddButton({
+	Name = "Nexus Exploits",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+  	end
+})
+Tab:AddButton({
+	Name = "VG Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+  	end
+})
+Tab:AddButton({
+	Name = "PWNERS V2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"))();
+  	end
+})
+  local Tab = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Highlight Hub Beta (Key: hlvipcomingsoon)",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Free'))()
+  	end
+})
+Tab:AddButton({
+	Name = "Symphony Hub",
+	Callback = function()
+      		-- Instances:
+
+	local Error = Instance.new("ScreenGui")
+	local Error_2 = Instance.new("Frame")
+	local UICorner = Instance.new("UICorner")
+	local error_xlarge = Instance.new("ImageLabel")
+	local UIToolsGradient = Instance.new("UIGradient")
+	local Title404 = Instance.new("TextLabel")
+	local Reason1 = Instance.new("TextLabel")
+	local Reason = Instance.new("TextLabel")
+	local Close = Instance.new("ImageButton")
+	local TitleScript = Instance.new("TextLabel")
+
+	--Properties:
+
+	Error.Name = "Error"
+	Error.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	Error.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	Error_2.Name = "Error"
+	Error_2.Parent = Error
+	Error_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Error_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Error_2.BorderSizePixel = 0
+	Error_2.Position = UDim2.new(0.373097986, 0, 0.276829273, 0)
+	Error_2.Size = UDim2.new(0, 460, 0, 245)
+
+	UICorner.Parent = Error_2
+
+	error_xlarge.Name = "error_xlarge"
+	error_xlarge.Parent = Error_2
+	error_xlarge.BackgroundTransparency = 1.000
+	error_xlarge.Size = UDim2.new(0, 70, 0, 70)
+	error_xlarge.Image = "rbxassetid://14755017532"
+	error_xlarge.ImageRectOffset = Vector2.new(402, 200)
+	error_xlarge.ImageRectSize = Vector2.new(96, 96)
+
+	UIToolsGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(62, 147, 252)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 183, 192))}
+	UIToolsGradient.Name = "UIToolsGradient"
+	UIToolsGradient.Parent = Error_2
+
+	Title404.Name = "Title 404"
+	Title404.Parent = Error_2
+	Title404.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Title404.BackgroundTransparency = 1.000
+	Title404.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Title404.BorderSizePixel = 0
+	Title404.Position = UDim2.new(0.258695662, 0, 0, 0)
+	Title404.Size = UDim2.new(0, 200, 0, 50)
+	Title404.Font = Enum.Font.SourceSans
+	Title404.Text = "Error 404"
+	Title404.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Title404.TextScaled = true
+	Title404.TextSize = 14.000
+	Title404.TextWrapped = true
+
+	Reason1.Name = "Reason1"
+	Reason1.Parent = Error_2
+	Reason1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Reason1.BackgroundTransparency = 1.000
+	Reason1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Reason1.BorderSizePixel = 0
+	Reason1.Position = UDim2.new(0.258695662, 0, 0.20408164, 0)
+	Reason1.Size = UDim2.new(0, 200, 0, 29)
+	Reason1.Font = Enum.Font.SourceSansLight
+	Reason1.Text = "Script Not Found"
+	Reason1.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Reason1.TextScaled = true
+	Reason1.TextSize = 14.000
+	Reason1.TextWrapped = true
+
+	Reason.Name = "Reason"
+	Reason.Parent = Error_2
+	Reason.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Reason.BackgroundTransparency = 1.000
+	Reason.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Reason.BorderSizePixel = 0
+	Reason.Position = UDim2.new(0, 0, 0.734693885, 0)
+	Reason.Size = UDim2.new(0, 460, 0, 65)
+	Reason.Font = Enum.Font.SourceSansSemibold
+	Reason.Text = "Symphony Hub Has Been Discontinued."
+	Reason.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Reason.TextScaled = true
+	Reason.TextSize = 14.000
+	Reason.TextWrapped = true
+
+	Close.Name = "Close"
+	Close.Parent = Error_2
+	Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Close.BackgroundTransparency = 1.000
+	Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Close.BorderSizePixel = 0
+	Close.Position = UDim2.new(0.9152174, 0, -0.159183666, 0)
+	Close.Size = UDim2.new(0, 39, 0, 39)
+	Close.Image = "rbxassetid://16167590639"
+	Close.ImageColor3 = Color3.fromRGB(79, 79, 79)
+	Close.ImageRectOffset = Vector2.new(248, 386)
+	Close.ImageRectSize = Vector2.new(36, 36)
+
+	TitleScript.Name = "Title Script"
+	TitleScript.Parent = Error_2
+	TitleScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TitleScript.BackgroundTransparency = 1.000
+	TitleScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	TitleScript.BorderSizePixel = 0
+	TitleScript.Position = UDim2.new(0.630434811, 0, 0.0571428575, 0)
+	TitleScript.Size = UDim2.new(0, 159, 0, 22)
+	TitleScript.Font = Enum.Font.SourceSans
+	TitleScript.Text = "Symphony Hub"
+	TitleScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+	TitleScript.TextScaled = true
+	TitleScript.TextSize = 14.000
+	TitleScript.TextWrapped = true
+
+	-- Scripts:
+
+	local function ZYYO_fake_script() -- Title404.Rainbow 
+		local script = Instance.new('LocalScript', Title404)
+
+		local textLabel = script.Parent
+		local tweenService = game:GetService("TweenService")
+
+		local colors = {
+			Color3.fromRGB(255, 0, 0),
+			Color3.fromRGB(255, 127, 0),
+			Color3.fromRGB(255, 255, 0),
+			Color3.fromRGB(0, 255, 0),
+			Color3.fromRGB(0, 0, 255),
+			Color3.fromRGB(75, 0, 130),
+			Color3.fromRGB(148, 0, 211)
+		}
+
+		local changeInterval = 2
+		local colorIndex = 1
+
+		local function changeColor()
+			local goal = {TextColor3 = colors[colorIndex]}
+			local tweenInfo = TweenInfo.new(changeInterval, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut)
+			local tween = tweenService:Create(textLabel, tweenInfo, goal)
+			tween:Play()
+
+			colorIndex = colorIndex % #colors + 1
+		end
+
+		while true do
+			changeColor()
+			wait(changeInterval)
+		end
+
+	end
+	coroutine.wrap(ZYYO_fake_script)()
+	local function NGVFQMS_fake_script() -- Close.LocalScript 
+		local script = Instance.new('LocalScript', Close)
+
+		local imageButton = script.Parent 
+		local screenGui = imageButton.Parent 
+
+		imageButton.MouseButton1Click:Connect(function()
+			screenGui:Destroy() 
+		end)
+
+	end
+	coroutine.wrap(NGVFQMS_fake_script)()
+	local function QFJI_fake_script() -- TitleScript.Rainbow 
+		local script = Instance.new('LocalScript', TitleScript)
+
+		local textLabel = script.Parent
+		local tweenService = game:GetService("TweenService")
+
+		local colors = {
+			Color3.fromRGB(255, 0, 0),
+			Color3.fromRGB(255, 127, 0),
+			Color3.fromRGB(255, 255, 0),
+			Color3.fromRGB(0, 255, 0),
+			Color3.fromRGB(0, 0, 255),
+			Color3.fromRGB(75, 0, 130),
+			Color3.fromRGB(148, 0, 211)
+		}
+
+		local changeInterval = 2
+		local colorIndex = 1
+
+		local function changeColor()
+			local goal = {TextColor3 = colors[colorIndex]}
+			local tweenInfo = TweenInfo.new(changeInterval, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut)
+			local tween = tweenService:Create(textLabel, tweenInfo, goal)
+			tween:Play()
+
+			colorIndex = colorIndex % #colors + 1
+		end
+
+		while true do
+			changeColor()
+			wait(changeInterval)
+		end
+
+	end
+	coroutine.wrap(QFJI_fake_script)()
+	local function SOWCCN_fake_script() -- Error_2.Bootup 
+		local script = Instance.new('LocalScript', Error_2)
+
+		local screenGui = script.Parent
+		local bootingSound = screenGui:FindFirstChildOfClass("Sound")
+		if bootingSound then
+			bootingSound:Play()
+		end
+		screenGui:GetPropertyChangedSignal("Parent"):Connect(function()
+			if screenGui.Parent == game.Players.LocalPlayer:WaitForChild("PlayerGui") then
+				bootingSound:Play()
+			end
+		end)
+
+
+	end
+	coroutine.wrap(SOWCCN_fake_script)()
+	local function YTTIS_fake_script() -- Error_2.Drag 
+		local script = Instance.new('LocalScript', Error_2)
+
+		local TweenService = game:GetService("TweenService")
+		local UserInputService = game:GetService("UserInputService")
+
+		local frame = script.Parent
+
+		local dragging = false
+		local dragInput, mousePos, framePos
+		local lastMousePos, lastGoalPos
+		local dragSpeed = 0.069 -- smoothness :)
+
+		local function lerp(a, b, m)
+			return a + (b - a) * m
+		end
+
+		local function update(input)
+			local delta = input.Position - mousePos
+			local newPos = UDim2.new(
+				framePos.X.Scale,
+				framePos.X.Offset + delta.X,
+				framePos.Y.Scale,
+				framePos.Y.Offset + delta.Y
+			)
+			lastGoalPos = newPos
+		end
+
+		frame.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				mousePos = input.Position
+				framePos = frame.Position
+				lastMousePos = mousePos
+				lastGoalPos = frame.Position
+
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+
+		frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+
+		UserInputService.InputChanged:Connect(function(input)
+			if dragging and input == dragInput then
+				update(input)
+			end
+		end)
+
+		game:GetService("RunService").RenderStepped:Connect(function()
+			if dragging then
+				frame.Position = UDim2.new(
+					lerp(frame.Position.X.Scale, lastGoalPos.X.Scale, dragSpeed),
+					lerp(frame.Position.X.Offset, lastGoalPos.X.Offset, dragSpeed),
+					lerp(frame.Position.Y.Scale, lastGoalPos.Y.Scale, dragSpeed),
+					lerp(frame.Position.Y.Offset, lastGoalPos.Y.Offset, dragSpeed)
+				)
+			end
+		end)
+
+	end
+	coroutine.wrap(YTTIS_fake_script)()
+  	end
+})
+Tab:AddButton({
+	Name = "Tbao Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurderMystery2"))()
+  	end
+})
+Tab:AddButton({
+	Name = "Dreadz Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts-FR/main/Loader"))()
+  	end
+})
+  local Tab = Window:MakeTab({
+	Name = "TSB",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "BeamedWareCC",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/EliasAtto1/BeamedWare/main/BeamedWare", true))()
+  	end
+})
+Tab:AddButton({
+	Name = "Lightux",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/Lightux/main/README.md'),true))()
+  	end
+})
+Tab:AddButton({
+	Name = "NS Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/HenSeu87PofghYT/ALL-IN-ONE/main/NSHUBV2"))() 
+  	end
+})
+Tab:AddButton({
+	Name = "Reaper Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/loader.lua"))()
+  	end
+})
+  local Tab = Window:MakeTab({
+	Name = "Brookhaven",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Ice Hub (For Multiple Games)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))() 
+  	end
+})
+  local Tab = Window:MakeTab({
+	Name = "Sol's RNG",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Survive V3",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NUTellaVING/Survive/main/Loader.lua"))()
+  	end
+})
+Tab:AddButton({
+	Name = "Sol's RNG Hub Classic",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Sols/main/RNG"))()
+  	end
+})
+  local Tab = Window:MakeTab({
+	Name = "Universal",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Fps Booter",
+	Callback = function()
+      		local decalsyeeted = true
+	local g = game
+	local w = g.Workspace
+	local l = g.Lighting
+	local t = w.Terrain
+	t.WaterWaveSize = 0
+	t.WaterWaveSpeed = 0
+	t.WaterReflectance = 0
+	t.WaterTransparency = 0
+	l.GlobalShadows = false
+	l.FogEnd = 9e9
+	l.Brightness = 0
+	settings().Rendering.QualityLevel = "Level01"
+	for i,v in pairs(g:GetDescendants()) do
+		if v:IsA("Part") or v:IsA("Union") or v:IsA("MeshPart") then
+			v.Material = "Plastic"
+			v.Reflectance = 0
+		elseif v:IsA("Decal") and decalsyeeted then 
+			v.Transparency = 1
+		elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then 
+			v.Lifetime = NumberRange.new(0)
+		end
+	end
+  	end
+})
+Tab:AddButton({
+	Name = "RoChips Panel",
+	Callback = function()
+      		local pastebin, Rochips_Panel = "https://glot.io/snippets", "gw".."wv".."87".."7g".."a3/r".."aw".."/ma".."in.lu".."a"
+	loadstring(game:HttpGet(pastebin.."/"..Rochips_Panel))()
+  	end
+})
+Tab:AddButton({
+	Name = "Sirius (Smooth)",
+	Callback = function()
+      		loadstring(game:HttpGet('https://sirius.menu/script'))();
+  	end
+})
