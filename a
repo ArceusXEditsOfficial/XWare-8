@@ -9,10 +9,10 @@ local Section = Tab:AddSection({
 	Name = "Information"
 })
 local Section = Tab:AddSection({
-	Name = "Update Logs- Ghxst Name Changed To XWare, Shifted To Orion Library,"
+	Name = "Version: 8.3 (Secure)"
 })
 local Section = Tab:AddSection({
-	Name = "Only 2 Linkvertise, Mobile Support, New Scripts And MANY MORE!!"
+	Name = "Update Logs- New Games"
 })
 local Section = Tab:AddSection({
 	Name = "Credits For The Hub: Arceus X Edits"
@@ -605,5 +605,68 @@ Tab:AddButton({
 	Name = "Sirius (Smooth)",
 	Callback = function()
       		loadstring(game:HttpGet('https://sirius.menu/script'))();
+  	end
+})
+Tab:AddButton({
+	Name = "Fly Gui V3",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/MsL78SwX'))();
+  	end
+})
+ local Tab = Window:MakeTab({
+	Name = "Phantom Forces",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Unfair Hub",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+  	end
+})
+Tab:AddButton({
+	Name = "Skihub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yousuck780/phantom-forces-new/main/noob"))()
+  	end
+})
+Tab:AddButton({
+	Name = "StrawHook",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Sirius/request/Loader'))()
+  	end
+})
+Tab:AddButton({
+	Name = "DuckSite",
+	Callback = function()
+      		loadstring(game:HttpGetAsync'https://raw.githubusercontent.com/ArtanisYT/Didlo/main/DUCKSITE')();
+  	end
+})
+ local Tab = Window:MakeTab({
+	Name = "K.A.T",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Dakrai-X",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/KAT"))()
+  	end
+})
+Tab:AddButton({
+	Name = "Local K.A.T Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/TDBuxW7W'))()
+  	end
+})
+ local Tab = Window:MakeTab({
+	Name = "Muscle Legends",
+	Icon = "rbxassetid://6034867068",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Little Gui",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/littlegui/main/MuscleLegends"))()
   	end
 })
